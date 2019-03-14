@@ -1,0 +1,26 @@
+{{template "header"}}
+
+<div class="container">
+    <h1>Register</h1>
+    <hr>
+    <small>This is register page!</small>
+    <form method="post" action="/register">
+
+        <label for="name">Username</label>
+        <input type="text" id="username" name="username">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+
+        <button type="submit">Register</button>
+
+    </form>
+</div>
+
+{{template "footer"}}
